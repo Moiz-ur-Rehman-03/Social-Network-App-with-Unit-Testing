@@ -1,0 +1,5 @@
+DB_CONNECTION = past connection code from MongoDB
+USER_TOKEN_SECRET = any string containing letter and numbers
+MODERATOR_TOKEN_SECRET = any string containing letter and numbers
+STRIPE_SECRET_KEY = get it from Stripe account
+PORT = 3010
