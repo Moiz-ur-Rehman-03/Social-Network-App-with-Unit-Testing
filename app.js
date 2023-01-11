@@ -64,7 +64,7 @@ app.use('/moderator/feed', moderatorTokenVerify, moderatorFeedRoute);
 
 // welcome route to Social Network
 app.get('/', (req, res) => {
-  res.status(200).json('Welcome to Social Network App by Moiz ur Rehman 1');
+  res.status(200).json('Welcome to Social Network App by Moiz ur Rehman');
 });
 
 // all invalid routes
